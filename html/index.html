@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Site</title>
+	
+    
+    <!--
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--BootstrapのCSS読み込み
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+    <!--BootstrapのCSS読み込み-->
+    <link href="../css/common/common.css" rel="stylesheet" type="text/css">
+	<link href="../css/index/index.css" rel="stylesheet" type="text/css">
+  
+    <!-- BootstrapのJS読み込み
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
+    
+	<script type="text/javascript" src="../js/jquery-1.8.2.min.js"></script>
+    <!-- bxsliderのJS読み込み -->
+	<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    	$('#photoGallery').bxSlider({
+			infiniteLoop:true,
+    		auto: true,
+    		pause:  3500,
+   		 	speed: 800,
+			controls: false,
+   		 	mode: 'fade',
+			pager: true,
+
+    	});
+  	});
+
+</script>
+</head>
+
+<body>
+
+<!--header要素-->
+ <header>
+   <div id="header-top">
+ 	<div id="top-contant">
+     <h3>Kazuhiko Miyamo【 Portfalio Site 】</h3>
+     <div id="top-r1"><a href="#"><img src="../images/common/fb_btn.jpg" width="100" height="40" alt="Facebook" onmouseover="this.src='../images/common/fb_btn_h.jpg'" onmouseout="this.src='../images/common/fb_btn.jpg'"></a></div>
+     <div id="top-r2"><a href="#"><img src="../images/common/tw_btn.jpg" width="100" height="40" alt="Twitter" onmouseover="this.src='../images/common/tw_btn_h.jpg'" onmouseout="this.src='../images/common/tw_btn.jpg'"></a></div> 
+     </div><!--top-contant-->   
+   </div><!--header-topEND-->
+ 
+
+ <div id="header">
+  
+  <div id="top" class="sitename cfx">
+   <div class="top-logo">
+    <h1><a href="index.html"><img src="../images/common/logo.png" width="335" height="75" alt="CreateveInnovation"></a>
+    </h1>
+   </div><!--top-logo end-->
+  </div><!--top end-->
+   
+   <div id="gallery" class="section">
+		<div class="sectionContent">
+			<ul id="photoGallery">
+				<li><img src="../images/index/s1.jpg" width="798" height="398"></li>
+			    <li><img src="../images/index/s2.jpg" width="798" height="398"></li>
+			    <li><img src="../images/index/s3.jpg" width="798" height="398"></li>
+			    <li><img src="../images/index/s4.jpg" width="798" height="398"></li>
+			</ul>
+		</div>
+	  
+   <h2 class="s-name">
+    <img src="../images/index/midashi.jpg" width="198" height="398" alt="日本の地域活性化を目指して。多彩なお祭り情報を発信">
+   </h2>
+  </div>
+
+ 
+  <div id="h-navi">
+   <ul class="cfx">
+    <li><a href="index.html"><img src="../images/common/home.png" width="80" height="18" alt="home" onmouseover="this.src='../images/common/home_h.png'" onmouseout="this.src='../images/common/home.png'"></a></li>
+    <li><a href="#"><img src="../images/common/news.png" width="80" height="18" alt="news" onmouseover="this.src='../images/common/news_h.png'" onmouseout="this.src='../images/common/news.png'"></a></li>
+    <li><a href="#"><img src="../images/common/about.png" width="80" height="18" alt="about" onmouseover="this.src='../images/common/about_h.png'" onmouseout="this.src='../images/common/about.png'"></a></li>
+    <li><a href="#"><img src="../images/common/works.png" width="85" height="18" alt="works" onmouseover="this.src='../images/common/works_h.png'" onmouseout="this.src='../images/common/works.png'"></a></li>
+   </ul>
+  </div><!--h-navi end-->
+ </div><!--header end-->
+ </header>
+ <!--header要素ここまで-->
+ 
+ 
+ <!--content要素-->
+ 
+ 
+ <div id="content" class="cfx">
+ 
+  <div id="left-box">
+   <div class="news-box">
+    <h4 class="n-title">最新の更新情報</h4>
+    
+    <div class="t-box cfx">
+     <div class="article">News</div><!--article end-->
+     <p class="n-text"><a title="" href="#">PortFolio情報の更新をしました！</a></p>
+    </div><!--t-box end-->
+    
+    <div class="t-box cfx">
+     <div class="article">Works</div><!--article end-->
+     <p class="n-text"><a title="" href="#">新サービスをリリースしました！</a></p>
+    </div><!--t-box end-->
+    
+    <div class="t-box cfx">
+     <div class="article">News</div><!--article end-->
+     <p class="n-text"><a title="" href="#">PortFolio情報の更新をしました！</a></p>
+    </div><!--t-box end-->
+    
+    <div class="t-box cfx">
+     <div class="article">Works</div><!--article end-->
+     <p class="n-text"><a title="" href="#">新サービスをリリースしました！</a></p>
+    </div><!--t-box end-->    
+   </div><!--news-box end-->
+   
+   
+   <div class="main-box cfx">
+   
+    <div class="min-box">
+     <h3 class="box-title"><a title="" href="#">Works1</a></h3>
+     <p class="h-img">
+      <a title="" href="#"><img src="../images/index/img.jpg" width="330" height="180" alt="メインとなる写真"></a>
+     </p>
+     <ul class="attr cfx">
+      <li class="date">2015.08.22</li>
+      <li class="cat">Works</li>
+     </ul>
+     <p class="box-text">最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。
+     <p class="more"><a title="詳細を見る" href="#"><img src="../images/index/more.jpg" width="300" height="20" alt="詳細を見る" onmouseover="this.src='../images/index/more_h.jpg'" onmouseout="this.src='../images/index/more.jpg'"></a></p>
+    </div><!--min-box end--> 
+    
+    <div class="min-box2">
+     <h3 class="box-title"><a title="" href="#">Works2</a></h3>
+     <p class="h-img">
+      <a title="" href="#"><img src="../images/index/img.jpg" width="330" height="180" alt="メインとなる写真"></a>
+     </p>
+     <ul class="attr cfx">
+      <li class="date">2015.08.22</li>
+      <li class="cat">Works</li>
+     </ul>
+     <p class="box-text">最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。
+     <p class="more"><a title="詳細を見る" href="#"><img src="../images/index/more.jpg" width="300" height="20" alt="詳細を見る" onmouseover="this.src='../images/index/more_h.jpg'" onmouseout="this.src='../images/index/more.jpg'"></a></p>
+    </div><!--min-box end--> 
+    
+    <div class="min-box2">
+     <h3 class="box-title"><a title="" href="#">Works4</a></h3>
+     <p class="h-img">
+      <a title="" href="#"><img src="../images/index/img.jpg" width="330" height="180" alt="メインとなる写真"></a>
+     </p>
+     <ul class="attr cfx">
+      <li class="date">2015.08.22</li>
+      <li class="cat">Works</li>
+     </ul>
+     <p class="box-text">最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。
+     <p class="more"><a title="詳細を見る" href="#"><img src="../images/index/more.jpg" width="300" height="20" alt="詳細を見る" onmouseover="this.src='../images/index/more_h.jpg'" onmouseout="this.src='../images/index/more.jpg'"></a></p>
+    </div><!--min-box end--> 
+    
+    <div class="min-box">
+     <h3 class="box-title"><a title="" href="#">Works1</a></h3>
+     <p class="h-img">
+      <a title="" href="#"><img src="../images/index/img.jpg" width="330" height="180" alt="メインとなる写真"></a>
+     </p>
+     <ul class="attr cfx">
+      <li class="date">2015.08.22</li>
+      <li class="cat">Works</li>
+     </ul>
+     <p class="box-text">最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。最初の作品。
+     <p class="more"><a title="詳細を見る" href="#"><img src="../images/index/more.jpg" width="300" height="20" alt="詳細を見る" onmouseover="this.src='../images/index/more_h.jpg'" onmouseout="this.src='../images/index/more.jpg'"></a></p>
+    </div><!--min-box end--> 
+      
+   </div><!--main-box end-->
+   
+  </div><!--left-box end-->
+  
+  
+  <div id="right-box">
+  
+   <dl class="mailmagazine">
+    <dt>Kazuhiko Miyamoto</dt>
+     <dd>
+     　<p>このサイトではポートフォリオの公開・運営しているサービスの紹介を行っております。</p>
+     </dd><br />
+    <dd>詳しくは<span><a class="link" href="#">こちら</a></span>より</dd>
+   </dl>
+   
+   <div class="banner">
+    <a title="" href="#"><img src="../images/index/banner.jpg" width="218" height="100" alt="バナー"></a>
+   </div>
+   
+   <div class="banner">
+    <a title="" href="#"><img src="../images/index/banner.jpg" width="218" height="100" alt="バナー"></a>
+   </div>
+   
+   <div class="banner">
+    <a title="" href="#"><img src="../images/index/banner.jpg" width="218" height="100" alt="バナー"></a>
+   </div>
+   
+   <div class="banner">
+    <a title="" href="#"><img src="../images/index/banner.jpg" width="218" height="100" alt="バナー"></a>
+   </div>
+   
+   <div class="banner">
+    <a title="" href="#"><img src="../images/index/banner.jpg" width="218" height="100" alt="バナー"></a>
+   </div>
+   
+   <div class="banner">
+    <a title="" href="#"><img src="../images/index/banner.jpg" width="218" height="100" alt="バナー"></a>
+   </div>
+   
+  </div><!--right-box end-->
+  
+ </div><!--content end-->
+ <!--content要素ここまで-->
+
+
+<!--footer要素-->
+
+ <div id="footer">
+  
+  <div id="footer-under">
+   <div id="under-in" class="cfx">
+    <ul class="cfx">
+     <li><a href="#">利用規約</a></li>
+     <li><a href="#">著作権・ガイドライン</a></li>
+     <li><a href="#">プライバシーポリシー</a></li>
+     <li><a href="#">お問い合わせ</a></li>
+     <li><a href="#">運営会社</a></li>
+    </ul>
+  </div><!--footer-underEND-->
+  
+ <div id="footer-copy">
+  <div id="copylight">
+   <p class="clearfix">CopyLight (C) Creative Innovation. All Rights Reserved.</p>
+  </div>
+ </div><!--footer-copyEND-->
+ </div>
+</div><!--footerEND-->
+ 
+<!--footer要素END-->
+
+
+</body>
+</html>
