@@ -12,7 +12,7 @@
 }
 
 .sectionContent {
-	width: 798px;
+	width: 998px;
 	float:left;
 	height:398px;
 	margin: 0 auto;
@@ -52,12 +52,13 @@
 	background: #000;
 }
 
+/*
 h2.s-name {
 	float:right;
 	width:198px;
 	height:398px;
 }
-
+*/
 /*--content要素--*/
 #content {
 	margin:0 auto;
