@@ -135,54 +135,25 @@ li {
 /*--footer要素--*/
 
 #footer {
-	text-align:center;
+	position:relative;
+	margin:0 auto;
 	background-color:#333333;
 	
 }
 
-#under-in {
-	color:#FFFFFF;
-	margin:0 auto;
-	padding:30px 0 10px 0;
-	text-align:center;
-	width:1000px;
-}
-
-#under-in a:link,#under-in a:visited {
-	color:#FFFFFF;
-}
-
-#under-in a:hover {
-	color:#09F;
-}
-
-
-#under-in ul {
-	margin-left:230px;
-}
-
-#under-in ul li {
-	font-size:12px;
-	float:left;
-	line-height:20px;
-	margin-right:40px;
-}
-
-#footer-copy {
-	background-color:#333333;
-}
-
 #copylight {
-	color:#FFFFFF;
+	width:1000px;
 	margin:0 auto;
 	padding:5px 0;
-	text-align:center;
-	width:1000px;
+	background-color:#333333;
+	
 }
 
 #copylight p {
+	color:#FFFFFF;
 	font-size:12px;
-	line-height:20px;
+	text-align:center;
+	
 }
 
 /*--footer要素--*/

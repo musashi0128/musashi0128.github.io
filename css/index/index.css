@@ -4,11 +4,11 @@
 /*Slider*/
 
 .section {
-	width: 1000px;
+	width: 998px;
 	height: 398px;
 	position: relative;
-	border:1px solid #000000;
-	margin:10px 0 50px 0;
+	border: 1px solid #000000;
+	margin: 10px 0 50px 0;
 }
 
 .sectionContent {
@@ -207,5 +207,10 @@ dd span a.link {
 	margin:0 0 30px;
 	padding:5px;
 }
+
+.banner-text {
+	font-size:12px;
+	margin:5px 0 0 5px;
+	}
 
 /*--content要素end--*/
