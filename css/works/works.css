@@ -1,0 +1,64 @@
+/* CSS Document */
+
+/*Top help*/
+#top .top-logo {
+	margin-bottom: 30px;
+}
+
+
+/*navi */
+#navi {
+	margin:0 auto;
+	width:1000px;
+}
+
+#navi-main {
+	border-bottom:1px solid #C8C8C8;
+	border-top:1px solid #C8C8C8;
+	height:50px;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+	
+}
+
+#navi-main li {
+	float:left;
+	margin-right:30px;
+	margin-top:15px;
+}
+
+
+/*main-box*/
+.content{
+	margin:0 auto;
+	width:1000px;
+	position:relative;
+	padding:0;
+}
+
+.content-box {
+	margin-top:30px;
+	margin-bottom:70px;
+	padding:0;
+}
+
+.content-box ul li {
+	margin-left:15px;
+	margin-right:15px;
+	float:left;
+	margin-top:30px;
+}
+
+
+.arc-box {
+	padding:0;
+	margin-bottom:20px;
+}
+
+.arc-box ul li {
+	margin-left:15px;
+	margin-right:15px;
+	float:left;
+	margin-top:30px;
+}

@@ -1,0 +1,97 @@
+/* CSS Document */
+
+/*Top help*/
+#top .top-logo {
+	margin-bottom: 30px;
+}
+
+
+/* content */
+
+.content {
+	position:relative;
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+	margin-bottom:20px;
+}
+
+
+
+.left-box {
+	float:left;
+	width:490px;
+}
+
+p.img-box {
+	opacity:0.8;
+}
+
+
+.right-box {
+	float:right;
+	width:490px;
+}
+
+.p-tl {
+	margin-bottom:10px;
+	font-size:24px;
+	}
+
+table.hyouki {
+	border:3px solid #333333;
+	margin-bottom:20px;
+}
+
+table {
+	empty-cells:show;
+	font-size:inherit;
+	margin:0;
+	border-collapse:collapse;
+}
+
+table.hyouki th {
+	background-color:#FAFAF7;
+	width:20%;
+	border-right:medium none;
+	line-height:160%;
+}
+
+table.hyouki td {
+	border-left:medium none;
+}
+
+table.hyouki th, table.hyouki td {
+	border:1px solid #999999;
+	padding:15px;
+}
+
+table a.link {
+	color:#09F;
+}
+
+table a.link:hover {
+	color:#06F;
+}
+
+
+#navi {
+	margin:0 auto;
+	width:1000px;
+}
+
+#navi-main {
+	border-bottom:1px solid #C8C8C8;
+	border-top:1px solid #C8C8C8;
+	height:50px;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+	
+}
+
+#navi-main li {
+	float:left;
+	margin-right:30px;
+	margin-top:15px;
+}
