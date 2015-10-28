@@ -19,8 +19,9 @@
 
 
 .left-box {
+	margin-top:40px;
 	float:left;
-	width:490px;
+	width:500px;
 }
 
 p.img-box {
@@ -30,7 +31,7 @@ p.img-box {
 
 .right-box {
 	float:right;
-	width:490px;
+	width:480px;
 }
 
 .p-tl {
